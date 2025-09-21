@@ -1,4 +1,7 @@
-# 🏁 F1 - Dashboard
+<h1 align="center">F1 - Dashboard</h1>
+<div align="center">
+  <img src="/favicon/f1-favicon.png" alt="Logo" width="100" height="100">
+</div>
 
 Un tableau de bord interactif et moderne pour suivre les performances des pilotes et des écuries de Formule 1, avec visualisation graphique et filtres dynamiques.
 
