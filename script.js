@@ -34,7 +34,7 @@ const teamLogos = {
   "Aston Martin Aramco Mercedes": "/assets/ecuries/Aston_Martin.png",
   "Williams Mercedes": "/assets/ecuries/Williams.png",
   "Alfa Romeo Ferrari": "/assets/ecuries/Alfa_Romeo.png",
-  "Haas Ferrari": "/assets/ecuries/Ferrari.svg",
+  "Haas Ferrari": "/assets/ecuries/Haas.png",
   AlphaTauri: "/assets/ecuries/AlphaTauri.png",
   Sauber: "/assets/ecuries/Sauber.png",
   "AlphaTauri RB Honda": "/assets/ecuries/Visa.png",
