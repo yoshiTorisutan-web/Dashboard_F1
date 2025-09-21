@@ -1,0 +1,844 @@
+{
+  "2024": {
+    "drivers": [
+      {
+        "givenName": "Max",
+        "familyName": "Verstappen",
+        "team": "Red Bull Racing Honda",
+        "points": 437,
+        "wins": 9,
+        "podiums": 14,
+        "dnf": 1,
+        "fastestLaps": 3,
+        "polePositions": 8
+      },
+      {
+        "givenName": "Lando",
+        "familyName": "Norris",
+        "team": "McLaren Mercedes",
+        "points": 374,
+        "wins": 4,
+        "podiums": 13,
+        "dnf": 1,
+        "fastestLaps": 6,
+        "polePositions": 8
+      },
+      {
+        "givenName": "Charles",
+        "familyName": "Leclerc",
+        "team": "Ferrari",
+        "points": 356,
+        "wins": 3,
+        "podiums": 13,
+        "dnf": 1,
+        "fastestLaps": 3,
+        "polePositions": 3
+      },
+      {
+        "givenName": "Oscar",
+        "familyName": "Piastri",
+        "team": "McLaren Mercedes",
+        "points": 292,
+        "wins": 1,
+        "podiums": 10,
+        "dnf": 1,
+        "fastestLaps": 2,
+        "polePositions": 4
+      },
+      {
+        "givenName": "Carlos",
+        "familyName": "Sainz",
+        "team": "Ferrari",
+        "points": 290,
+        "wins": 1,
+        "podiums": 7,
+        "dnf": 1,
+        "fastestLaps": 2,
+        "polePositions": 3
+      },
+      {
+        "givenName": "George",
+        "familyName": "Russell",
+        "team": "Mercedes",
+        "points": 245,
+        "wins": 1,
+        "podiums": 6,
+        "dnf": 1,
+        "fastestLaps": 2,
+        "polePositions": 1
+      },
+      {
+        "givenName": "Lewis",
+        "familyName": "Hamilton",
+        "team": "Mercedes",
+        "points": 223,
+        "wins": 0,
+        "podiums": 5,
+        "dnf": 0,
+        "fastestLaps": 2,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Sergio",
+        "familyName": "Pérez",
+        "team": "Red Bull Racing Honda",
+        "points": 152,
+        "wins": 0,
+        "podiums": 3,
+        "dnf": 1,
+        "fastestLaps": 1,
+        "polePositions": 1
+      },
+      {
+        "givenName": "Fernando",
+        "familyName": "Alonso",
+        "team": "Aston Martin Aramco Mercedes",
+        "points": 70,
+        "wins": 0,
+        "podiums": 2,
+        "dnf": 1,
+        "fastestLaps": 1,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Pierre",
+        "familyName": "Gasly",
+        "team": "Alpine Renault",
+        "points": 42,
+        "wins": 0,
+        "podiums": 1,
+        "dnf": 1,
+        "fastestLaps": 1,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Nico",
+        "familyName": "Hülkenberg",
+        "team": "Haas Ferrari",
+        "points": 41,
+        "wins": 0,
+        "podiums": 1,
+        "dnf": 1,
+        "fastestLaps": 1,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Yuki",
+        "familyName": "Tsunoda",
+        "team": "AlphaTauri RB Honda",
+        "points": 30,
+        "wins": 0,
+        "podiums": 0,
+        "dnf": 1,
+        "fastestLaps": 1,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Lance",
+        "familyName": "Stroll",
+        "team": "Aston Martin Aramco Mercedes",
+        "points": 24,
+        "wins": 0,
+        "podiums": 0,
+        "dnf": 1,
+        "fastestLaps": 0,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Esteban",
+        "familyName": "Ocon",
+        "team": "Alpine Renault",
+        "points": 21,
+        "wins": 0,
+        "podiums": 0,
+        "dnf": 1,
+        "fastestLaps": 0,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Logan",
+        "familyName": "Sargeant",
+        "team": "Williams Mercedes",
+        "points": 17,
+        "wins": 0,
+        "podiums": 0,
+        "dnf": 1,
+        "fastestLaps": 0,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Alexander",
+        "familyName": "Albon",
+        "team": "Williams Mercedes",
+        "points": 17,
+        "wins": 0,
+        "podiums": 0,
+        "dnf": 1,
+        "fastestLaps": 0,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Valtteri",
+        "familyName": "Bottas",
+        "team": "Alfa Romeo Ferrari",
+        "points": 4,
+        "wins": 0,
+        "podiums": 0,
+        "dnf": 1,
+        "fastestLaps": 0,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Zhou",
+        "familyName": "Guanyu",
+        "team": "Alfa Romeo Ferrari",
+        "points": 0,
+        "wins": 0,
+        "podiums": 0,
+        "dnf": 1,
+        "fastestLaps": 0,
+        "polePositions": 0
+      }
+    ],
+    "constructors": [
+      {
+        "name": "McLaren Mercedes",
+        "points": 666,
+        "wins": 6,
+        "podiums": 26,
+        "dnf": 2,
+        "polePositions": 8
+      },
+      {
+        "name": "Ferrari",
+        "points": 652,
+        "wins": 4,
+        "podiums": 20,
+        "dnf": 2,
+        "polePositions": 3
+      },
+      {
+        "name": "Red Bull Racing Honda",
+        "points": 589,
+        "wins": 9,
+        "podiums": 17,
+        "dnf": 2,
+        "polePositions": 8
+      },
+      {
+        "name": "Mercedes",
+        "points": 468,
+        "wins": 1,
+        "podiums": 11,
+        "dnf": 1,
+        "polePositions": 1
+      },
+      {
+        "name": "Aston Martin Aramco Mercedes",
+        "points": 94,
+        "wins": 0,
+        "podiums": 2,
+        "dnf": 2,
+        "polePositions": 0
+      },
+      {
+        "name": "Alpine Renault",
+        "points": 65,
+        "wins": 0,
+        "podiums": 1,
+        "dnf": 2,
+        "polePositions": 0
+      },
+      {
+        "name": "Haas Ferrari",
+        "points": 58,
+        "wins": 0,
+        "podiums": 1,
+        "dnf": 2,
+        "polePositions": 0
+      },
+      {
+        "name": "AlphaTauri RB Honda",
+        "points": 46,
+        "wins": 0,
+        "podiums": 0,
+        "dnf": 2,
+        "polePositions": 0
+      },
+      {
+        "name": "Williams Mercedes",
+        "points": 17,
+        "wins": 0,
+        "podiums": 0,
+        "dnf": 2,
+        "polePositions": 0
+      },
+      {
+        "name": "Alfa Romeo Ferrari",
+        "points": 4,
+        "wins": 0,
+        "podiums": 0,
+        "dnf": 2,
+        "polePositions": 0
+      }
+    ]
+  },
+
+  "2023": {
+    "drivers": [
+      {
+        "givenName": "Max",
+        "familyName": "Verstappen",
+        "team": "Red Bull Racing Honda",
+        "points": 575,
+        "wins": 19,
+        "podiums": 22,
+        "dnf": 1,
+        "fastestLaps": 9,
+        "polePositions": 12
+      },
+      {
+        "givenName": "Sergio",
+        "familyName": "Pérez",
+        "team": "Red Bull Racing Honda",
+        "points": 285,
+        "wins": 7,
+        "podiums": 9,
+        "dnf": 1,
+        "fastestLaps": 2,
+        "polePositions": 2
+      },
+      {
+        "givenName": "Lewis",
+        "familyName": "Hamilton",
+        "team": "Mercedes",
+        "points": 234,
+        "wins": 0,
+        "podiums": 6,
+        "dnf": 0,
+        "fastestLaps": 4,
+        "polePositions": 1
+      },
+      {
+        "givenName": "Fernando",
+        "familyName": "Alonso",
+        "team": "Aston Martin Aramco Mercedes",
+        "points": 206,
+        "wins": 0,
+        "podiums": 8,
+        "dnf": 0,
+        "fastestLaps": 1,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Charles",
+        "familyName": "Leclerc",
+        "team": "Ferrari",
+        "points": 206,
+        "wins": 0,
+        "podiums": 6,
+        "dnf": 0,
+        "fastestLaps": 1,
+        "polePositions": 5
+      },
+      {
+        "givenName": "Lando",
+        "familyName": "Norris",
+        "team": "McLaren Mercedes",
+        "points": 205,
+        "wins": 0,
+        "podiums": 7,
+        "dnf": 0,
+        "fastestLaps": 1,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Carlos",
+        "familyName": "Sainz",
+        "team": "Ferrari",
+        "points": 200,
+        "wins": 0,
+        "podiums": 3,
+        "dnf": 0,
+        "fastestLaps": 1,
+        "polePositions": 2
+      },
+      {
+        "givenName": "George",
+        "familyName": "Russell",
+        "team": "Mercedes",
+        "points": 175,
+        "wins": 0,
+        "podiums": 2,
+        "dnf": 0,
+        "fastestLaps": 1,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Oscar",
+        "familyName": "Piastri",
+        "team": "McLaren Mercedes",
+        "points": 97,
+        "wins": 0,
+        "podiums": 2,
+        "dnf": 0,
+        "fastestLaps": 0,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Esteban",
+        "familyName": "Ocon",
+        "team": "Alpine Renault",
+        "points": 42,
+        "wins": 0,
+        "podiums": 1,
+        "dnf": 0,
+        "fastestLaps": 0,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Pierre",
+        "familyName": "Gasly",
+        "team": "Alpine Renault",
+        "points": 41,
+        "wins": 0,
+        "podiums": 1,
+        "dnf": 0,
+        "fastestLaps": 0,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Nico",
+        "familyName": "Hülkenberg",
+        "team": "Haas Ferrari",
+        "points": 41,
+        "wins": 0,
+        "podiums": 1,
+        "dnf": 0,
+        "fastestLaps": 0,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Yuki",
+        "familyName": "Tsunoda",
+        "team": "AlphaTauri RB Honda",
+        "points": 30,
+        "wins": 0,
+        "podiums": 0,
+        "dnf": 0,
+        "fastestLaps": 0,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Lance",
+        "familyName": "Stroll",
+        "team": "Aston Martin Aramco Mercedes",
+        "points": 24,
+        "wins": 0,
+        "podiums": 0,
+        "dnf": 0,
+        "fastestLaps": 0,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Logan",
+        "familyName": "Sargeant",
+        "team": "Williams Mercedes",
+        "points": 17,
+        "wins": 0,
+        "podiums": 0,
+        "dnf": 0,
+        "fastestLaps": 0,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Alexander",
+        "familyName": "Albon",
+        "team": "Williams Mercedes",
+        "points": 17,
+        "wins": 0,
+        "podiums": 0,
+        "dnf": 0,
+        "fastestLaps": 0,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Valtteri",
+        "familyName": "Bottas",
+        "team": "Alfa Romeo Ferrari",
+        "points": 4,
+        "wins": 0,
+        "podiums": 0,
+        "dnf": 0,
+        "fastestLaps": 0,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Zhou",
+        "familyName": "Guanyu",
+        "team": "Alfa Romeo Ferrari",
+        "points": 0,
+        "wins": 0,
+        "podiums": 0,
+        "dnf": 0,
+        "fastestLaps": 0,
+        "polePositions": 0
+      }
+    ],
+    "constructors": [
+      {
+        "name": "Red Bull Racing Honda",
+        "points": 860,
+        "wins": 17,
+        "podiums": 28,
+        "dnf": 2,
+        "polePositions": 17
+      },
+      {
+        "name": "Mercedes",
+        "points": 409,
+        "wins": 1,
+        "podiums": 17,
+        "dnf": 0,
+        "polePositions": 1
+      },
+      {
+        "name": "Ferrari",
+        "points": 406,
+        "wins": 0,
+        "podiums": 16,
+        "dnf": 0,
+        "polePositions": 4
+      },
+      {
+        "name": "McLaren Mercedes",
+        "points": 302,
+        "wins": 0,
+        "podiums": 3,
+        "dnf": 0,
+        "polePositions": 0
+      },
+      {
+        "name": "Aston Martin Aramco Mercedes",
+        "points": 94,
+        "wins": 0,
+        "podiums": 2,
+        "dnf": 0,
+        "polePositions": 0
+      },
+      {
+        "name": "Alpine Renault",
+        "points": 83,
+        "wins": 0,
+        "podiums": 2,
+        "dnf": 0,
+        "polePositions": 0
+      },
+      {
+        "name": "Haas Ferrari",
+        "points": 58,
+        "wins": 0,
+        "podiums": 1,
+        "dnf": 0,
+        "polePositions": 0
+      },
+      {
+        "name": "AlphaTauri RB Honda",
+        "points": 46,
+        "wins": 0,
+        "podiums": 0,
+        "dnf": 0,
+        "polePositions": 0
+      },
+      {
+        "name": "Williams Mercedes",
+        "points": 34,
+        "wins": 0,
+        "podiums": 0,
+        "dnf": 0,
+        "polePositions": 0
+      },
+      {
+        "name": "Alfa Romeo Ferrari",
+        "points": 4,
+        "wins": 0,
+        "podiums": 0,
+        "dnf": 0,
+        "polePositions": 0
+      }
+    ]
+  },
+
+  "2022": {
+    "drivers": [
+      {
+        "givenName": "Max",
+        "familyName": "Verstappen",
+        "team": "Red Bull Racing RBPT",
+        "points": 454,
+        "wins": 15,
+        "podiums": 17,
+        "dnf": 0,
+        "fastestLaps": 9,
+        "polePositions": 13
+      },
+      {
+        "givenName": "Charles",
+        "familyName": "Leclerc",
+        "team": "Ferrari",
+        "points": 308,
+        "wins": 3,
+        "podiums": 11,
+        "dnf": 3,
+        "fastestLaps": 3,
+        "polePositions": 9
+      },
+      {
+        "givenName": "Sergio",
+        "familyName": "Pérez",
+        "team": "Red Bull Racing RBPT",
+        "points": 305,
+        "wins": 2,
+        "podiums": 11,
+        "dnf": 1,
+        "fastestLaps": 2,
+        "polePositions": 2
+      },
+      {
+        "givenName": "George",
+        "familyName": "Russell",
+        "team": "Mercedes",
+        "points": 275,
+        "wins": 1,
+        "podiums": 9,
+        "dnf": 0,
+        "fastestLaps": 1,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Carlos",
+        "familyName": "Sainz",
+        "team": "Ferrari",
+        "points": 246,
+        "wins": 1,
+        "podiums": 9,
+        "dnf": 0,
+        "fastestLaps": 2,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Lewis",
+        "familyName": "Hamilton",
+        "team": "Mercedes",
+        "points": 240,
+        "wins": 0,
+        "podiums": 9,
+        "dnf": 0,
+        "fastestLaps": 4,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Lando",
+        "familyName": "Norris",
+        "team": "McLaren Mercedes",
+        "points": 122,
+        "wins": 0,
+        "podiums": 1,
+        "dnf": 0,
+        "fastestLaps": 1,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Esteban",
+        "familyName": "Ocon",
+        "team": "Alpine Renault",
+        "points": 92,
+        "wins": 0,
+        "podiums": 1,
+        "dnf": 0,
+        "fastestLaps": 0,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Fernando",
+        "familyName": "Alonso",
+        "team": "Alpine Renault",
+        "points": 81,
+        "wins": 0,
+        "podiums": 1,
+        "dnf": 0,
+        "fastestLaps": 0,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Valtteri",
+        "familyName": "Bottas",
+        "team": "Alfa Romeo Ferrari",
+        "points": 49,
+        "wins": 0,
+        "podiums": 0,
+        "dnf": 0,
+        "fastestLaps": 0,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Sebastian",
+        "familyName": "Vettel",
+        "team": "Aston Martin Aramco Mercedes",
+        "points": 37,
+        "wins": 0,
+        "podiums": 0,
+        "dnf": 0,
+        "fastestLaps": 0,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Daniel",
+        "familyName": "Ricciardo",
+        "team": "McLaren Mercedes",
+        "points": 37,
+        "wins": 0,
+        "podiums": 0,
+        "dnf": 0,
+        "fastestLaps": 0,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Kevin",
+        "familyName": "Magnussen",
+        "team": "Haas Ferrari",
+        "points": 25,
+        "wins": 0,
+        "podiums": 1,
+        "dnf": 0,
+        "fastestLaps": 0,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Pierre",
+        "familyName": "Gasly",
+        "team": "AlphaTauri RBPT",
+        "points": 23,
+        "wins": 0,
+        "podiums": 0,
+        "dnf": 0,
+        "fastestLaps": 0,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Lance",
+        "familyName": "Stroll",
+        "team": "Aston Martin Aramco Mercedes",
+        "points": 18,
+        "wins": 0,
+        "podiums": 0,
+        "dnf": 0,
+        "fastestLaps": 0,
+        "polePositions": 0
+      },
+      {
+        "givenName": "Logan",
+        "familyName": "Sargeant",
+        "team": "Williams Mercedes",
+        "points": 8,
+        "wins": 0,
+        "podiums": 0,
+        "dnf": 0,
+        "fastestLaps": 0,
+        "polePositions": 0
+      }
+    ],
+    "constructors": [
+      {
+        "name": "Red Bull Racing RBPT",
+        "points": 759,
+        "wins": 17,
+        "podiums": 31,
+        "dnf": 1,
+        "fastestLaps": 9,
+        "polePositions": 17
+      },
+      {
+        "name": "Ferrari",
+        "points": 554,
+        "wins": 4,
+        "podiums": 16,
+        "dnf": 3,
+        "fastestLaps": 7,
+        "polePositions": 12
+      },
+      {
+        "name": "Mercedes",
+        "points": 515,
+        "wins": 1,
+        "podiums": 19,
+        "dnf": 0,
+        "fastestLaps": 5,
+        "polePositions": 2
+      },
+      {
+        "name": "Alpine Renault",
+        "points": 173,
+        "wins": 0,
+        "podiums": 1,
+        "dnf": 0,
+        "fastestLaps": 1,
+        "polePositions": 0
+      },
+      {
+        "name": "McLaren Mercedes",
+        "points": 159,
+        "wins": 0,
+        "podiums": 2,
+        "dnf": 0,
+        "fastestLaps": 1,
+        "polePositions": 0
+      },
+      {
+        "name": "Alfa Romeo Ferrari",
+        "points": 55,
+        "wins": 0,
+        "podiums": 0,
+        "dnf": 0,
+        "fastestLaps": 0,
+        "polePositions": 0
+      },
+      {
+        "name": "Aston Martin Aramco Mercedes",
+        "points": 55,
+        "wins": 0,
+        "podiums": 0,
+        "dnf": 0,
+        "fastestLaps": 0,
+        "polePositions": 0
+      },
+      {
+        "name": "Haas Ferrari",
+        "points": 37,
+        "wins": 0,
+        "podiums": 1,
+        "dnf": 0,
+        "fastestLaps": 0,
+        "polePositions": 0
+      },
+      {
+        "name": "AlphaTauri RBPT",
+        "points": 35,
+        "wins": 0,
+        "podiums": 0,
+        "dnf": 0,
+        "fastestLaps": 0,
+        "polePositions": 0
+      },
+      {
+        "name": "Williams Mercedes",
+        "points": 8,
+        "wins": 0,
+        "podiums": 0,
+        "dnf": 0,
+        "fastestLaps": 0,
+        "polePositions": 0
+      }
+    ]
+  }
+}

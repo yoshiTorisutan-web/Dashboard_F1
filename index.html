@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Dashboard</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon/f1-favicon.png" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="min-h-screen bg-gray-50 text-gray-800 flex flex-col font-sans">
+    <!-- Header -->
+    <header class="bg-gray-900 shadow-md py-4">
+      <div
+        class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4"
+      >
+        <h1
+          class="text-2xl md:text-3xl font-extrabold text-white flex items-center gap-3 tracking-wide"
+        >
+          <img
+            src="/assets/f1/f1-logo.png"
+            alt="Logo F1 Dashboard"
+            class="w-20 h-20 object-contain"
+          />
+          Dashboard
+        </h1>
+
+        <div class="flex flex-col md:flex-row gap-4 items-center">
+          <select
+            id="seasonSelect"
+            class="p-2 rounded-lg border border-gray-700 bg-gray-800 text-white hover:border-blue-400 transition"
+          >
+            <option value="2022">Saison 2022</option>
+            <option value="2023">Saison 2023</option>
+            <option value="2024" selected>Saison 2024</option>
+          </select>
+          <nav class="flex gap-4">
+            <a
+              href="#drivers"
+              class="text-gray-300 hover:text-blue-400 font-medium transition"
+              >Pilotes</a
+            >
+            <a
+              href="#constructors"
+              class="text-gray-300 hover:text-blue-400 font-medium transition"
+              >Écuries</a
+            >
+            <a
+              href="#charts"
+              class="text-gray-300 hover:text-blue-400 font-medium transition"
+              >Graphiques</a
+            >
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow max-w-7xl mx-auto p-6 space-y-6">
+      <!-- Tables -->
+      <section id="drivers" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="card p-6 hover:shadow-xl transition duration-300">
+          <h2 class="text-xl font-semibold text-blue-600 mb-4">Pilotes</h2>
+          <input
+            id="searchDrivers"
+            placeholder="Rechercher pilote"
+            class="w-full p-2 rounded-lg mb-4 border border-gray-300 focus:ring-2 focus:ring-blue-400 focus:border-blue-500 transition"
+          />
+          <div class="overflow-x-auto max-h-80">
+            <table class="w-full text-sm text-gray-700">
+              <thead class="bg-gray-100 text-gray-800">
+                <tr>
+                  <th>#</th>
+                  <th>Nom</th>
+                  <th>Écurie</th>
+                  <th>Pts</th>
+                  <th>V</th>
+                  <th>P</th>
+                  <th>DNF</th>
+                  <th>FL</th>
+                  <th>PP</th>
+                </tr>
+              </thead>
+              <tbody id="driversTable"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div
+          class="card p-6 hover:shadow-xl transition duration-300"
+          id="constructors"
+        >
+          <h2 class="text-xl font-semibold text-blue-600 mb-4">Écuries</h2>
+
+          <!-- Barre de recherche pour les écuries -->
+          <input
+            id="searchConstructors"
+            placeholder="Rechercher écurie"
+            class="w-full p-2 rounded-lg mb-4 border border-gray-300 focus:ring-2 focus:ring-blue-400 focus:border-blue-500 transition"
+          />
+
+          <div class="overflow-x-auto max-h-80">
+            <table class="w-full text-sm text-gray-700">
+              <thead class="bg-gray-100 text-gray-800">
+                <tr>
+                  <th>#</th>
+                  <th>Écurie</th>
+                  <th>Pts</th>
+                  <th>V</th>
+                  <th>P</th>
+                  <th>PP</th>
+                  <th>DNF</th>
+                </tr>
+              </thead>
+              <tbody id="constructorsTable"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Graphiques -->
+      <section id="charts" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div
+          class="card p-6 flex flex-col items-center justify-center h-96 my-6 hover:shadow-xl transition"
+        >
+          <h3 class="text-lg font-semibold mb-4 text-blue-600">
+            Pilotes : Points / Victoires / Podiums
+          </h3>
+          <canvas id="overviewChart" class="mb-6 w-full"></canvas>
+        </div>
+
+        <div
+          class="card p-6 flex flex-col items-center justify-center h-96 my-6 hover:shadow-xl transition"
+        >
+          <h3 class="text-lg font-semibold mb-4 text-blue-600">
+            Points par écurie
+          </h3>
+          <canvas id="constructorPointsChart" class="mb-6 w-full"></canvas>
+        </div>
+
+        <div
+          class="card p-6 flex flex-col items-center h-96 my-6 hover:shadow-xl transition"
+        >
+          <h3 class="text-lg font-semibold mb-4 text-blue-600">
+            Victoires par écurie
+          </h3>
+          <canvas id="constructorWinsChart" class="mb-4 w-full"></canvas>
+        </div>
+
+        <div
+          class="card p-6 flex flex-col items-center justify-center h-96 my-6 hover:shadow-xl transition"
+        >
+          <h3 class="text-lg font-semibold mb-4 text-blue-600">
+            Podiums par écurie
+          </h3>
+          <canvas id="constructorPodiumsChart" class="mb-6 w-full"></canvas>
+        </div>
+
+        <div
+          class="card p-6 flex flex-col items-center justify-center h-96 my-6 hover:shadow-xl transition"
+        >
+          <h3 class="text-lg font-semibold mb-4 text-blue-600">
+            Abandons par écurie
+          </h3>
+          <canvas id="abandonChart" class="mb-6 w-full"></canvas>
+        </div>
+
+        <div
+          class="card p-6 flex flex-col items-center h-96 my-6 hover:shadow-xl transition"
+        >
+          <h3 class="text-lg font-semibold mb-4 text-blue-600">
+            Pole positions par écurie
+          </h3>
+          <canvas id="poleChart" class="mb-4 w-full"></canvas>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-6 mt-6">
+      <div
+        class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4 text-gray-300"
+      >
+        <p>&copy; 2025 F1 Live Dashboard. Tous droits réservés.</p>
+        <div class="flex gap-4">
+          <a href="#" class="hover:text-blue-400 transition"
+            >Mentions légales</a
+          >
+          <a href="#" class="hover:text-blue-400 transition"
+            >Politique de confidentialité</a
+          >
+          <a href="#" class="hover:text-blue-400 transition">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
