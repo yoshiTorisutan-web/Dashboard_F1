@@ -31,7 +31,7 @@ F1 Live Dashboard permet de :
 ## Installation & Utilisation
 
 Cloner le dépôt :
-- git clone https://github.com/yoshiTorisutan-web/f1-dashboard.git
+- git clone [https://github.com/yoshiTorisutan-web/f1-dashboard.git](https://github.com/yoshiTorisutan-web/Dashboard_F1)
 
 Ouvrir le projet :
 - Double-clique sur index.html ou ouvre-le dans un navigateur.
