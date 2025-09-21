@@ -1,4 +1,4 @@
-# 🏁 F1 Live Dashboard
+# 🏁 F1 - Dashboard
 
 Un tableau de bord interactif et moderne pour suivre les performances des pilotes et des écuries de Formule 1, avec visualisation graphique et filtres dynamiques.
 
