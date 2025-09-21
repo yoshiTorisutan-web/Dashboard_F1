@@ -25,20 +25,6 @@ F1 Live Dashboard permet de :
 - JavaScript / Chart.js pour les visualisations et la logique dynamique.
 - JSON pour stocker les données de la saison F1.
 
-## Structure du projet
-
-F1-Dashboard/
-│
-├─ index.html           # Page principale
-├─ style.css            # Styles personnalisés
-├─ script.js            # Logique JavaScript
-├─ data/
-│   └─ f1data.json      # Données pilotes et écuries
-├─ assets/
-│   ├─ f1/              # Logo et images
-│   └─ ecuries/         # Logos des écuries
-└─ README.md
-
 ## Installation & Utilisation
 
 Cloner le dépôt :
